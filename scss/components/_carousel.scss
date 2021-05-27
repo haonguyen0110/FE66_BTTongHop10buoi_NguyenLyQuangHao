@@ -1,0 +1,36 @@
+#carousel{
+    margin: 0 auto;
+    width: 1680px;
+    @include tablet{
+        width: 800px;
+    }
+    .carousel__content{
+        position: relative;
+        .carousel__text{
+            position: absolute;
+            top: 10%;
+            left: 10%;
+            width: 30%;
+            font-size: 2rem;
+            font-weight: 400;
+        }
+    }
+    .search__box{
+        padding: 1rem 10rem;
+        background-color: #141414;
+        input{
+            width: 100%;
+            padding:0.5rem ;
+            border: none;
+        }
+        span{
+            background-color: white;
+            line-height: 2.5rem;
+            padding-right: 1rem;
+            border: none;
+            i{
+                color: black;
+            }
+        }
+    }
+}

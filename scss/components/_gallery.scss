@@ -1,0 +1,57 @@
+#gallery{
+    .showMore{
+        display: none;
+    }
+ 
+    .gallery__navitem a {
+       color: white;
+       &:hover{
+           color: #00adef;
+       }
+       span{
+           margin-left: 1rem;
+       }
+    }
+    .gallery__navitem .active{
+        background-color: black!important;
+        color: #00adef;
+        border-bottom: 1px solid #00adef;
+    }
+    .gallery__content{
+       .col-lg-6, .col-lg-3, .row{
+           padding: 0;
+            margin: 0;
+       }
+            img{
+                width: 100%;
+            }
+            .item__text{
+                position: absolute;
+                bottom: 0;
+                color: white;
+                padding: 1rem 2rem;
+                background-color: #00000060;
+                width: 100%;
+                p{
+                    display: none;
+                    transition: all 0.5s;
+                }
+            }
+            
+        
+        }
+
+        button{
+            margin-top: 2rem;
+            padding: 0.2rem 1rem;
+            background-color:#302e2e ;
+            color: #8f8989;
+            span{
+                margin-left: 1rem;
+            }
+        }
+      
+
+       
+    }
+   

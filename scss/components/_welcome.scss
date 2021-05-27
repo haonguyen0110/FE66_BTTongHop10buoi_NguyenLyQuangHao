@@ -1,0 +1,27 @@
+#welcome{
+    padding: 4rem 0;
+    .wel__content{
+        h1{
+            font-size: 1.6rem;
+            margin: 1rem 0;
+        }
+        p{
+            font-size: 0.8rem;
+            letter-spacing: 1px;
+        }
+        button{
+            margin-top: 2rem;
+        }
+    }
+    .wel__bot{
+        margin-top: 5rem;
+        .wel__img{
+            width: 100%; 
+            transition: all 0.3s;
+
+            &:hover{
+                border-bottom:5px solid #00adef ;
+            }
+        }
+    }
+}

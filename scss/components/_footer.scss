@@ -1,0 +1,52 @@
+footer{
+    padding: 2rem 10rem 1rem 10rem;
+    .language{
+        .active{
+            color: #00adef;
+            &:hover a{
+                color: #078dc2;
+                text-decoration: none;
+            }
+        }
+        span{
+            margin-right:1rem ;
+            color: #999;
+           
+        }
+    }
+    ul{
+        list-style: none;
+        li{
+            display: inline;
+            margin: 0 0.5rem;
+            a{
+                font-size: 0.8rem;
+                color: #999;
+                transition: all 0.3s;
+                &:hover{
+                    text-decoration: none;
+                    color: #00adef;
+                }
+            }
+        }
+    }
+    .footer__list{
+        margin-left:-4rem ;
+        @include tablet{
+            margin-left: 0;
+        }
+    }
+    .backToTop{
+        a{
+            color: #999;
+            transition: all 0.3s;
+            &:hover{
+                text-decoration: none;
+                color: #00adef;
+            }
+            i{
+                margin-left: 1rem;
+            }
+        }
+    }
+}

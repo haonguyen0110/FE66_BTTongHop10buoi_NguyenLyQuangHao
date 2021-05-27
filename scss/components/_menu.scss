@@ -1,0 +1,67 @@
+#menu{
+    padding: 0 10rem;
+    h4{
+        font-size: 1.8rem;
+    }
+    hr{
+        background-color: #4d4b4b;
+        margin: 1.2rem 0;
+    }
+    .col-lg-3{
+        margin: 0;
+        padding: 0;
+    }
+    ul{
+        list-style: none;
+        li{
+            a{
+                color: #999;
+                transition: all 0.3s;
+                font-size: 0.8rem;
+                &:hover{
+                    color: #00adef;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+    .stay{
+        p{
+            color: #999;
+            width: 40%;
+            font-size: 0.8rem;
+        }
+    }
+  
+    .social{
+        i{
+            font-size: 2rem;
+            margin-right: 2rem;
+        }
+        a{
+            color: #999;
+            transition: all 0.3s;
+            &:hover{
+                color: #00adef;
+            }
+        }
+    }
+    .stay__logo{
+        .logo__img{
+            padding: 3rem 0;
+            margin: 0 auto;
+            img{
+                width: 60%;
+            }
+        }
+    }
+    .stay__bot{
+        p{
+            font-size:  0.8rem;
+            color: #999;
+            span a{
+                color: white;
+            }
+        }
+    }
+}

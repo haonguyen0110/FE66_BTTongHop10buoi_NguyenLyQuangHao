@@ -1,0 +1,381 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+#header {
+  padding: 0 15rem;
+}
+
+#header .logo span {
+  margin-left: 4rem;
+  font-size: 1rem;
+  padding-bottom: 1rem;
+}
+
+#header .top__nav {
+  text-align: right;
+}
+
+#header .top__nav li {
+  list-style: none;
+  display: inline;
+  margin: 0 1rem;
+}
+
+#header .top__nav li a {
+  color: white;
+}
+
+#header .nav__bar {
+  margin-left: auto;
+}
+
+#header .nav__bar li {
+  margin: 1rem;
+}
+
+#header .nav__bar li a {
+  color: white;
+}
+
+#header .nav__bar li a:hover {
+  color: #00adef;
+}
+
+#carousel {
+  margin: 0 auto;
+  width: 1680px;
+}
+
+@media (max-width: 1436px) {
+  #carousel {
+    width: 800px;
+  }
+}
+
+#carousel .carousel__content {
+  position: relative;
+}
+
+#carousel .carousel__content .carousel__text {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  width: 30%;
+  font-size: 2rem;
+  font-weight: 400;
+}
+
+#carousel .search__box {
+  padding: 1rem 10rem;
+  background-color: #141414;
+}
+
+#carousel .search__box input {
+  width: 100%;
+  padding: 0.5rem;
+  border: none;
+}
+
+#carousel .search__box span {
+  background-color: white;
+  line-height: 2.5rem;
+  padding-right: 1rem;
+  border: none;
+}
+
+#carousel .search__box span i {
+  color: black;
+}
+
+#welcome {
+  padding: 4rem 0;
+}
+
+#welcome .wel__content h1 {
+  font-size: 1.6rem;
+  margin: 1rem 0;
+}
+
+#welcome .wel__content p {
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+#welcome .wel__content button {
+  margin-top: 2rem;
+}
+
+#welcome .wel__bot {
+  margin-top: 5rem;
+}
+
+#welcome .wel__bot .wel__img {
+  width: 100%;
+  transition: all 0.3s;
+}
+
+#welcome .wel__bot .wel__img:hover {
+  border-bottom: 5px solid #00adef;
+}
+
+#gallery .showMore {
+  display: none;
+}
+
+#gallery .gallery__navitem a {
+  color: white;
+}
+
+#gallery .gallery__navitem a:hover {
+  color: #00adef;
+}
+
+#gallery .gallery__navitem a span {
+  margin-left: 1rem;
+}
+
+#gallery .gallery__navitem .active {
+  background-color: black !important;
+  color: #00adef;
+  border-bottom: 1px solid #00adef;
+}
+
+#gallery .gallery__content .col-lg-6, #gallery .gallery__content .col-lg-3, #gallery .gallery__content .row {
+  padding: 0;
+  margin: 0;
+}
+
+#gallery .gallery__content img {
+  width: 100%;
+}
+
+#gallery .gallery__content .item__text {
+  position: absolute;
+  bottom: 0;
+  color: white;
+  padding: 1rem 2rem;
+  background-color: #00000060;
+  width: 100%;
+}
+
+#gallery .gallery__content .item__text p {
+  display: none;
+  transition: all 0.5s;
+}
+
+#gallery button {
+  margin-top: 2rem;
+  padding: 0.2rem 1rem;
+  background-color: #302e2e;
+  color: #8f8989;
+}
+
+#gallery button span {
+  margin-left: 1rem;
+}
+
+#intro {
+  padding: 5rem 10rem;
+  font-size: 0.8rem;
+}
+
+#intro span {
+  margin-right: 1rem;
+}
+
+#intro span i {
+  margin-right: 0.5rem;
+}
+
+#intro p {
+  margin: 1rem 0;
+}
+
+#menu {
+  padding: 0 10rem;
+}
+
+#menu h4 {
+  font-size: 1.8rem;
+}
+
+#menu hr {
+  background-color: #4d4b4b;
+  margin: 1.2rem 0;
+}
+
+#menu .col-lg-3 {
+  margin: 0;
+  padding: 0;
+}
+
+#menu ul {
+  list-style: none;
+}
+
+#menu ul li a {
+  color: #999;
+  transition: all 0.3s;
+  font-size: 0.8rem;
+}
+
+#menu ul li a:hover {
+  color: #00adef;
+  text-decoration: none;
+}
+
+#menu .stay p {
+  color: #999;
+  width: 40%;
+  font-size: 0.8rem;
+}
+
+#menu .social i {
+  font-size: 2rem;
+  margin-right: 2rem;
+}
+
+#menu .social a {
+  color: #999;
+  transition: all 0.3s;
+}
+
+#menu .social a:hover {
+  color: #00adef;
+}
+
+#menu .stay__logo .logo__img {
+  padding: 3rem 0;
+  margin: 0 auto;
+}
+
+#menu .stay__logo .logo__img img {
+  width: 60%;
+}
+
+#menu .stay__bot p {
+  font-size: 0.8rem;
+  color: #999;
+}
+
+#menu .stay__bot p span a {
+  color: white;
+}
+
+footer {
+  padding: 2rem 10rem 1rem 10rem;
+}
+
+footer .language .active {
+  color: #00adef;
+}
+
+footer .language .active:hover a {
+  color: #078dc2;
+  text-decoration: none;
+}
+
+footer .language span {
+  margin-right: 1rem;
+  color: #999;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  display: inline;
+  margin: 0 0.5rem;
+}
+
+footer ul li a {
+  font-size: 0.8rem;
+  color: #999;
+  transition: all 0.3s;
+}
+
+footer ul li a:hover {
+  text-decoration: none;
+  color: #00adef;
+}
+
+footer .footer__list {
+  margin-left: -4rem;
+}
+
+@media (max-width: 1436px) {
+  footer .footer__list {
+    margin-left: 0;
+  }
+}
+
+footer .backToTop a {
+  color: #999;
+  transition: all 0.3s;
+}
+
+footer .backToTop a:hover {
+  text-decoration: none;
+  color: #00adef;
+}
+
+footer .backToTop a i {
+  margin-left: 1rem;
+}
+
+.merc__stick {
+  position: fixed;
+  right: 0;
+  top: 50%;
+}
+
+.merc__stick .title {
+  list-style: none;
+}
+
+.merc__stick .title .title__item {
+  background-color: #000000c0;
+  padding: 0.2rem 4rem 0.2rem 1rem;
+  transform: translateX(15rem);
+  transition: all 0.8s;
+}
+
+.merc__stick .title .title__item:hover {
+  transform: translateX(0);
+}
+
+.merc__stick .title .title__item a {
+  color: white;
+  font-size: 1.5rem;
+}
+
+.merc__stick .title .title__item a:hover {
+  text-decoration: none;
+}
+
+.merc__stick .title .title__item a i {
+  margin-right: 1rem;
+}
+
+.merc__stick .social {
+  list-style: none;
+}
+
+.merc__stick .social li {
+  display: inline;
+  padding: 0;
+}
+
+.merc__stick .social li a:hover {
+  color: #00adef;
+}
+/*# sourceMappingURL=style.css.map */
