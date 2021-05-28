@@ -51,13 +51,12 @@ body {
 
 #carousel {
   margin: 0 auto;
-  width: 1680px;
 }
 
-@media (max-width: 1436px) {
-  #carousel {
-    width: 800px;
-  }
+#carousel .carousel-inner {
+  width: 95%;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 #carousel .carousel__content {

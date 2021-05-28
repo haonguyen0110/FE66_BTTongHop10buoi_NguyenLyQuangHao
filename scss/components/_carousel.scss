@@ -1,9 +1,14 @@
 #carousel{
-    margin: 0 auto;
-    width: 1680px;
-    @include tablet{
-        width: 800px;
+    .carousel-inner{
+        width: 95%;
+        margin: 0 auto;
+        overflow: hidden;
     }
+    margin: 0 auto;
+   
+    // @include tablet{
+    //     width: 800px;
+    // }
     .carousel__content{
         position: relative;
         .carousel__text{
