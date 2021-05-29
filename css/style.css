@@ -13,10 +13,22 @@ body {
   padding: 0 15rem;
 }
 
+@media (max-width: 1436px) {
+  #header {
+    padding: 0;
+  }
+}
+
 #header .logo span {
   margin-left: 4rem;
   font-size: 1rem;
   padding-bottom: 1rem;
+}
+
+@media (max-width: 1436px) {
+  #header .logo span {
+    padding: 0;
+  }
 }
 
 #header .top__nav {
@@ -31,6 +43,12 @@ body {
 
 #header .top__nav li a {
   color: white;
+}
+
+@media (max-width: 1436px) {
+  #header .top__nav span {
+    display: none;
+  }
 }
 
 #header .nav__bar {

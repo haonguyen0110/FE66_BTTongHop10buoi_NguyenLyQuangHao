@@ -1,11 +1,16 @@
 #header{
     padding:0 15rem ;
-
+    @include tablet{
+        padding: 0;
+    }
     .logo{
         span{
             margin-left: 4rem;
             font-size: 1rem;
             padding-bottom: 1rem;
+            @include tablet{
+            padding: 0;
+            }
         }
     }
     .top__nav{
@@ -19,14 +24,21 @@
                 color: white;
             }
            }
+           @include tablet{
+            span{
+                display: none;
+            }
+        }
     }
     .nav__bar{
         margin-left: auto;
       
             li{
                 margin: 1rem;
+               
                 a{
                     color: white;
+                   
                     &:hover{
                         color: #00adef;
                     }
